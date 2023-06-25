@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Embed</title>
+</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    body{
+        background: #141D26;
+        margin: 0;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+    .thumb{
+        background: #243447;
+        width: 800px;
+        margin: 220px auto;
+        border-radius: 10px;
+    }
+    .thum-header{
+        display: flex;
+        align-items: center;
+        padding: 40px 30px 10px 30px;
+    }
+    .thum-profil{
+        border-radius: 50px;
+        margin-right: 20px;
+    }
+    .title{
+        width: 60%;
+        margin-left: 10px;
+    }
+    .title-name{
+        font-weight: 600;
+    }
+    .title-sub{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .logo{
+        width: 40%;
+        text-align: right;
+    }
+    .content{
+        padding: 0 30px 10px 30px;
+        line-height: 24px;
+    }
+    .content-text{
+        font-weight: 300;
+    }
+    .text-tag{
+        color: #1D9FEF;
+    }
+    .thum-footer{
+        display: flex;
+        padding: 0 30px 40px 30px;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.50);
+    }
+    .footer-img{
+        display: flex;        
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        align-items: center;
+    }
+    .footer-like{        
+        margin-right: 20px;
+    }
+</style>
+<body>
+    <div class="thumb">
+        <div class="thum-header">
+            <img src="https://picsum.photos/50" alt="" class="thum-profil">
+            <div class="title">
+                <div class="title-name">John Doe</div>
+                <div class="title-sub">@realjohndoe</div>
+            </div>
+            <div class="logo">
+                <i class="fa-brands fa-twitter fa-2xl" style="color: #1D9FEF;"></i>
+            </div>
+        </div>
+        <div class="content">
+            <p class="content-text">Why do they call it 'debugging' when it feels more like 'wildly guessing and hoping for the best'? <span class="text-tag">#programming #coding #debugging</span></p>
+        </div>
+        <div class="thum-footer">
+            <div class="footer-img"><i class="fa-regular fa-heart"></i></div>
+            <p class="footer-like">650</p>
+            <p class="footer-time">3:40 PM - Feb 24, 22</p>
+        </div>
+    </div>
+</body>
+</html>
